@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Gupter:wght@400;500;700&family=Inter:wght@100..900&family=Koh+Santepheap:wght@100;300;400;700;900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Parisienne&family=REM:ital,wght@0,100..900;1,100..900&family=Spirax&display=swap'); 
+ 
+ *{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.container{
+    padding: 0px 40px;
+    margin: 0 auto;
+}
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    margin: 17px 40px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 34px;
+    height: auto;
+
+}
+.logo span{
+    font-size: 25px;
+    color: #FF2C84;
+}
+.logo span:hover{
+    cursor: pointer;
+}
+
+
+
+.langin{
+    
+    color: #e21b70;
+    padding: 8px 15px;
+    border-radius: 10px;
+    border-color: #FF2C84;
+    margin-right:15px ;
+}
+.langin:hover{
+    background-color: #fdf2f7;
+    cursor: pointer;
+}
+.Signup{
+    background-color: #ee5b9b;
+    border: none;
+    padding: 9px 16px;
+    border-radius: 10px;
+    color: white;
+    margin-right: 15px;
+    
+}
+.Signup:hover{
+    background-color: #e21b70;
+    cursor: pointer;
+}
+select{
+    font-family:'fontAwesome','second font name';
+    font-size: 18px;
+    padding: 10px;
+    margin-right: 15px;
+    border: none;
+    border-radius: 8px;
+
+}
+select:hover{
+    background-color: #fdf2f7;
+    cursor: pointer;
+}
+.add-cart{
+    font-size: 30px;
+    border: none;
+    border-radius: 50%;
+    padding: 14px;
+    background: none;
+    color: #ee5b9b;
+    
+}
+.add-cart:hover{
+    background-color: #fdf2f7;
+    cursor: pointer;
+}
+.hero-section{
+    position: relative;
+    height: 650px;
+    background-color:#f7f7f7 ;
+}
+.hero-img{
+    position: absolute;
+    width: 49%;
+    margin-left: 50%;
+    background-image: url('../img/refresh-hero-home-pk.webp');
+    height: 100vh;
+    max-height: 650px;
+    background-size:cover ;
+}
+.hero-text{
+    position: absolute;
+    top: 50%;
+    left: 3%;
+}
+.global-search{
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    margin-top: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 56px 6px rgba(0,0, 0, .2);
+
+}
+.search{
+    position: relative;
+}
+.search input{
+    width: 500px;
+    height: 40px;
+    font-size: 17px;
+}
+.search button{
+    position: absolute;
+    left: 395px;
+    top: 30%;
+    width: 100px;
+    border: none;
+    background: none;
+    color: #FF2C84;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+.search button:hover{
+    cursor: pointer;
+}
+
+.food-btn{
+    margin: 0px 15px;
+    padding: 10px 20px;
+    background-color: #FF2C84;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.food-btn:hover{
+    cursor: pointer;
+}
+/*home section*/
+
+.home-header{
+    margin: 50px 0px 25px 70px;
+}
+.home-img{
+    width: 100%;
+
+}
+.pera-poster {
+    position:absolute;
+    top:  120%;
+    background-color: white;
+    padding: 2% 3% 8% 2%;
+    margin: 0px 40px;
+    width: 500;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 56px 6px rgba(0,0, 0, .2);
+}
+.get-btn{
+    color: white;
+    background-color: #FF2C84;
+    padding: 17px 25px;
+    border-radius: 10px;
+    border: none;
+}
+.get-btn:hover{
+    cursor: pointer;
+}
